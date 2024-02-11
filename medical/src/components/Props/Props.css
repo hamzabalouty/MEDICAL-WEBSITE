@@ -1,0 +1,87 @@
+.props {
+  max-height: 100vh;
+  max-width: 100%;
+}
+.props-header {
+  text-align: center;
+  margin-top: 100px;
+}
+.props-container {
+  margin-top: 50px;
+}
+.props-details {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.props-details .box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 25px 20px;
+  border: 1px solid #469fe4;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  transition: 0.5s ease;
+}
+.props-details .box:hover {
+  transform: translateY(-10px);
+  background-color: #469fe4;
+  color: #fff;
+}
+.props-details .box:hover .props-icon {
+  color: #fff;
+}
+.props-icon {
+  color: #469fe4;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-left: 40%;
+}
+.props-details h3 {
+  font-size: 20px;
+}
+
+/* START RWD */
+@media screen and (min-width: 401px) and (max-width: 767px) {
+  .props {
+    max-height: 100vh;
+    max-width: 100%;
+  }
+  .props-details {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+  .props-details .box {
+    width: 45%;
+  }
+  .props-details h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .props {
+    max-height: 100vh;
+    max-width: 100%;
+  }
+  .props-details {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .props-details .box {
+    width: 100%;
+  }
+  .props-details h3 {
+    font-size: 16px;
+  }
+}
+/* END RWD */

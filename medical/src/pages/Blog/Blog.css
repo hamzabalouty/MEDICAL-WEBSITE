@@ -1,0 +1,141 @@
+.blog {
+  max-width: 100%;
+}
+.blog-body {
+  display: flex;
+  width: 100%;
+  padding-top: 70px;
+  gap: 5%;
+}
+.blog-left {
+  width: 70%;
+  margin-bottom: 70px;
+}
+.blog-right {
+  width: 25%;
+  margin-right: 60px;
+}
+.blog-left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.blog-left-container-box {
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 2;
+}
+.blog-box-text {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #fff;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.blog-left-container-box img {
+  width: 100%;
+  border: 1px solid #fff !important;
+}
+.blog-left-container-box h3 {
+  margin-top: 20px;
+}
+
+.blog-left-container-box a {
+  text-decoration: none;
+  color: #212529;
+  transition: 0.5s;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.blog-left-container-box a:hover {
+  color: #469fe4;
+}
+.left-box-header-text {
+  background-color: #469fe4;
+  height: 130px;
+  transition: 0.5s;
+}
+.left-box-header-text:hover {
+  background-color: #212529;
+  cursor: pointer;
+}
+.left-box-header-text p {
+  padding-top: 10px;
+  padding-left: 20px;
+  color: #fff;
+}
+.left-box-header-text h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.blog-right-input {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.blog-right-input input {
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
+  border: none;
+  outline: none;
+}
+.blog-right-input input:focus {
+  outline: none;
+}
+.blog-right-list {
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.blog-right-list ul li {
+  margin-left: -25px;
+  display: flex;
+  gap: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.blog-right-list ul li:hover {
+  color: #469fe4;
+  padding-left: 20px;
+}
+.blog-right-list h3 {
+  margin-bottom: 20px;
+}
+.blog-right-list ul {
+  line-height: 2;
+}
+.right-blog-icon {
+  font-size: 30px;
+}
+/* START RWD */
+@media screen and (max-width: 767px) {
+  .blog {
+    max-width: 100%;
+  }
+  .blog-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-left,
+  .blog-right,
+  .blog-left-container {
+    width: 100%;
+  }
+  .blog-right {
+    margin-right: 60px;
+  }
+  .blog-right-container,
+  .blog-right-input {
+    width: 100%;
+  }
+  .blog-right-container {
+    padding: 30px 40px;
+  }
+}
+/* END RWD */

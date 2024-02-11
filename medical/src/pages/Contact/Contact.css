@@ -1,0 +1,153 @@
+.contact-page {
+  max-width: 100%;
+}
+.contact-body {
+  padding: 70px 50px;
+}
+.contact-container {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+}
+.contact-container-left {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 50px;
+}
+.contact-container-left h3 {
+  margin-bottom: 20px;
+}
+.name-email-input {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10%;
+  width: 100%;
+}
+.name-email-input-rel {
+  width: 45%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  height: 40px;
+}
+.name-input,
+.email-input {
+  width: 80%;
+  border: none;
+  outline: none;
+  height: 100%;
+  margin: 0px 10%;
+}
+.name-email-subject-rel {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.subject-input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin: 0px 5%;
+}
+.textarea {
+  margin-bottom: 20px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 25px;
+}
+.contact-container-left input,
+.textarea:focus {
+  outline: none;
+}
+.contact-container-left button {
+  background-color: #469fe4;
+  color: #fff;
+  border: 1px solid #469fe4;
+  width: 70px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.contact-container-left button:hover {
+  background-color: #469fe4 !important;
+  color: #fff !important;
+  border: 1px solid #469fe4 !important;
+}
+
+.contact-container-right {
+  width: 50%;
+  padding-left: 20px;
+}
+.contact-container-right h3 {
+  margin-bottom: 20px;
+}
+.contact-container-right p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-container-right h4 {
+  margin-bottom: 20px;
+}
+.contact-container-right ul {
+  line-height: 2.6;
+}
+.contact-container-right ul li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.right-contact-icon {
+  font-size: 25px;
+}
+
+/* START RWD */
+@media screen and (min-width: 401px) and (max-width: 767px) {
+  .contact-page {
+    max-width: 100%;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-container-left,
+  .contact-container-right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact-page {
+    max-width: 100%;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-container-left,
+  .contact-container-right {
+    width: 100%;
+  }
+  .contact-container-left {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .contact-container-right {
+    padding-left: 0px;
+  }
+  .name-email-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .name-email-input-rel {
+    width: 100%;
+    margin: 20px 0px;
+  }
+}
+/* END RWD */

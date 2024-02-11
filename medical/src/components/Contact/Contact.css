@@ -1,0 +1,130 @@
+.contact {
+  background-color: #469fe4;
+  max-width: 100%;
+  margin-top: 350px;
+}
+.contact .contact-container {
+  text-align: center;
+  padding-top: 50px;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.contact-container h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+}
+.contact-container p {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.contact-container button {
+  width: 120px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+.contact-container button:hover {
+  background-color: #fff;
+  color: #469fe4;
+}
+
+/* START RWD */
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 700px;
+  }
+}
+@media screen and (min-width: 516px) and (max-width: 767px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 1100px;
+  }
+  .contact-container button {
+    margin-left: 40%;
+  }
+}
+@media screen and (min-width: 436px) and (max-width: 515px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 1300px;
+  }
+  .contact-container button {
+    margin-left: 35%;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 435px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 1500px;
+  }
+  .contact-container button {
+    margin-left: 35%;
+  }
+}
+@media screen and (min-width: 326px) and (max-width: 400px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 2000px;
+  }
+  .contact-container button {
+    margin-left: 30%;
+  }
+}
+@media screen and (min-width: 261px) and (max-width: 325px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 2300px;
+  }
+  .contact-container button {
+    margin-left: 25%;
+  }
+}
+@media screen and (min-width: 221px) and (max-width: 260px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 2500px;
+  }
+  .contact-container button {
+    margin-left: 20%;
+  }
+}
+@media screen and (min-width: 196px) and (max-width: 220px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 2800px;
+  }
+  .contact-container button {
+    margin-left: 15%;
+  }
+}
+@media screen and (min-width: 170px) and (max-width: 195px) {
+  .contact {
+    background-color: #469fe4;
+    max-width: 100%;
+    margin-top: 3000px;
+  }
+  .contact-container button {
+    margin-left: 10%;
+  }
+}
+/* END RWD */
